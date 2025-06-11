@@ -1,0 +1,4 @@
+docker build -t my-apache-server .
+ 
+docker run -p 8081:80 -d my-apache-server 
+localhost:8081
